@@ -1,7 +1,6 @@
 // Variables
 
 // Colors
-
 $color-primary: #58e1c1;
 $color-background: #51ddfc;
 $color-base: #777;
@@ -12,4 +11,17 @@ $color-error: #e4757a;
 $color-warning: #fd7856;
 $color-info: #927bc1;
 
+// Images
+$img-size: (
+    display: block,
+    margin-left: auto,
+    margin-right: auto,
+    margin-top: 10px,
+    max-width: 100%
+);
+
+// Font weight
+$fw-lighter: 300;
+
 //Media query breakpoint
+$break-md: 768px;

@@ -1,0 +1,15 @@
+// Mixins
+
+// Image positioning
+@mixin center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Media query
+@mixin mq($break) {
+    @media (min-width: $break) {
+        @content;
+    }
+}
